@@ -1,6 +1,6 @@
 # Show a list of availible products and their prices
-products = [ "Coca Cola - $2.50", "Pepsi - $2.50", "Sprite - $2.45", "Fanta - $2.45", "Snickers - $0.85", "Mars - $0.80", "Knoppers - $0.60", 
-            "Kinder Bueno - $0.70"]
+products = { "Coca Cola" : "$2.50", "Pepsi" : "$2.50", "Sprite" : "$2.45", "Fanta" : "$2.45", 
+             "Snickers" : "$0.85", "Mars" : "$0.80", "Knoppers" : "$0.60", "Kinder Bueno" : "$0.70"}
 
 print()
 
@@ -10,6 +10,7 @@ for p in products:
 print("\n")
 
 # Let the user choose a product
+
 
 # Create vending machine mechanism for each product
     
