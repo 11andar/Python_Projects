@@ -22,7 +22,9 @@ choice = input("Choose product: ")
 
 
 # Create vending machine mechanism for each product
+products[p] = float(products[p])
     
+print(products[p])
 # Each time user inserts a coin print amount due left and prompt for coin again
 
 # Print change owed
