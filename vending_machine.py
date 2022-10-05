@@ -18,7 +18,7 @@ for p in products:
 print("\n")
 
 # Let the user choose a product
-
+choice = input("Choose product: ")
 
 
 # Create vending machine mechanism for each product
